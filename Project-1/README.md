@@ -18,16 +18,20 @@
 >The below command is used to run the code:  
   
 *sudo python Project1App.py 22 4 1*  
+  
 *Command Line Argument 1 - Sensor type*  
 *Command Line Argument 2 - GPIO pin used*  
 *Command Line Argument 3 - '1' for resolution (1013X584) else for resolution (800X480)*  
+  
 *Eg-1: For desktop, 'sudo python Project1App.py 22 4 1'*  
 *Eg-2: For touch screen, 'sudo python Project1App.py 22 4 2'*  
   
 **Project Work:**
 >First the GUI is developed using QT designer.  
->Then the .ui file is converted to .py file using the below command:  
+>Then the .ui file is converted to .py file using the below command:
+  
 *"C:\Python34\pyuic5.bat" -x Project1App.ui -o Project1App.py*  
+  
 >Code is written to read temperature and humidity values from the sensor by installing the python libraries.  
 >Code also handles the error scenarios, and classes are written to plot temperature and humidity graphs for latest ten values in new windows.  
 >It also shows the alarm with red color image if temperature and humdity values exceeds the threshold.  
