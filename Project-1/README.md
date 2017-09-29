@@ -38,9 +38,9 @@
 >A temperature or button press shows its respective value along with the time when the request is made.  
   
 **Project Additions:**  
->>Feature-1: Alarm indication when temperature and humidity values exceeds the threshold.  
->>Feature-2: Support of two different resolutions for desktop and touch screen LCD.  
->>Feature-3: Plotting temperature and humidity graphs for the latest ten values.  
+>Feature-1: Alarm indication when temperature and humidity values exceeds the threshold.  
+>Feature-2: Support of two different resolutions for desktop and touch screen LCD.  
+>Feature-3: Plotting temperature and humidity graphs for the latest ten values.  
   
 **Output:**  
 
