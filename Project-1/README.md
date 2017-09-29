@@ -2,10 +2,10 @@
 # Project-1
 # Author: *Sridhar Pavithrapu*
 
-** Project-1 ** desription:
+**Project-1** desription:
 
-> Interfacing DHT22 Temperature/Humidity sensor with Raspberry Pi
+>Interfacing DHT22 Temperature/Humidity sensor with Raspberry Pi
 
 
-** Installation Instructions **:
+**Installation Instructions**:
 
