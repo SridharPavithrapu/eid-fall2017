@@ -62,6 +62,8 @@ class Ui_Project1EID(object):
                             
         else:
             self.temperature_Text.setText("Connection Failed")
+            self.temperature_Request_Time.setText(t.currentTime().toString())
+            
             
     # Function to print humidity values along with error warning and printing time at which humidity is requested        
     def humidityReadingPrint(self):
@@ -90,6 +92,7 @@ class Ui_Project1EID(object):
             
         else:
             self.humidity_Text.setText("Connection Failed")
+            self.humidity_Request_Time.setText(t.currentTime().toString())
             
     # Function used for dynamic language translation	
     def retranslateUi(self, Project1EID):
@@ -209,10 +212,10 @@ class Ui_Project1EID(object):
 
         # Function call backs for different button click
         self.retranslateUi(Project1EID)
-        self.temperature_Graph_Button.released.connect(self.main.plot)
-        self.humidity_Graph_Button.released.connect(self.main_1.plot)
-        self.temperature_Button.released.connect(self.temperatureReadingPrint)
-        self.humidity_Button.released.connect(self.humidityReadingPrint)
+        self.temperature_Graph_Button.clicked.connect(self.main.plot)
+        self.humidity_Graph_Button.clicked.connect(self.main_1.plot)
+        self.temperature_Button.clicked.connect(self.temperatureReadingPrint)
+        self.humidity_Button.clicked.connect(self.humidityReadingPrint)
         QtCore.QMetaObject.connectSlotsByName(Project1EID)
 
 """
