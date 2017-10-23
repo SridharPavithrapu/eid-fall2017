@@ -1,4 +1,4 @@
-# Eid-fall2017
+# Eid-Fall2017
   
 Repo for Fall 2017 Embedded Interface Design class
 
